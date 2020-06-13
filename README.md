@@ -15,11 +15,11 @@ Atiq Samtia– [@AtiqSamtia](https://twitter.com/atiqsamtia) – me@atiqsamtia.c
 
 Distributed under the GPL3 license.
 
-[https://github.com/atiqsamtiablack-lives-matter-wordpress-widget](https://github.com/atiqsamtiablack-lives-matter-wordpress-widget)
+[https://github.com/atiqsamtia/black-lives-matter-wordpress-widget](https://github.com/atiqsamtia/black-lives-matter-wordpress-widget)
 
 ## Contributing
 
-1. Fork it (<https://github.com/atiqsamtiablack-lives-matter-wordpress-widget/fork>)
+1. Fork it (<https://github.com/atiqsamtia/black-lives-matter-wordpress-widget/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
