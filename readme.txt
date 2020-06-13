@@ -1,9 +1,9 @@
 === Black Lives Matter Widget ===
 Contributors: atiqsamtia
-Tags: posts, update, date, bulk, seo, google, pages, modified date
+Tags: blacklivesmatter, alllivesmatter, widget, solidarity message
 Donate link: https://www.fiverr.com/atiqsamtia/code-or-fix-php-html-css-jquery-mysql-or-wordpress
 Requires at least: 3.0
-Tested up to: 5.3
+Tested up to: 5.4.2
 Requires PHP: 5.4
 Stable tag: trunk
 License: GPL2
