@@ -9,6 +9,8 @@ if ( isset( $_POST[ 'tb_refresh' ] ) && wp_verify_nonce( $_POST['tb_refresh'],'t
 
     update_option('blmw_active', sanitize_text_field($_POST['blmw_active']));
     update_option('blmw_message', sanitize_text_field($_POST['blmw_message']));
+    update_option('blmw_bg_color', sanitize_text_field($_POST['blmw_bg_color']));
+    update_option('blmw_txt_color', sanitize_text_field($_POST['blmw_txt_color']));
 
     $settings_saved = 1;
 
@@ -62,11 +64,30 @@ wp_enqueue_style('blacklivesmatter',plugins_url( '/style.css', __FILE__ ));
                 </td>
             </tr>
 
+            <tr id="range_row" valign="top" >
+                <th scope="row"><label for="bg_color"><?php _e( 'Background Color', 'black-lives-matter' ); ?></label></th>
+                <td>
+
+                    <input type="color" id="bg_color" name="blmw_bg_color" value="<?php echo get_option( 'blmw_bg_color', '#F1E829' ) ?>" />
+                
+                </td>
+            </tr>
+
+            
+            <tr id="range_row" valign="top" >
+                <th scope="row"><label for="txt_color"><?php _e( 'Text Color', 'black-lives-matter' ); ?></label></th>
+                <td>
+
+                    <input type="color" id="txt_color" name="blmw_txt_color" value="<?php echo get_option( 'blmw_txt_color', '#000' ) ?>" />
+                
+                </td>
+            </tr>
+
         </table>
 
         <p class="submit">
             <input name="tb_refresh" type="hidden" value="<?php echo wp_create_nonce('tb-refresh'); ?>" />
-            <input class="button-primary" name="do" type="submit" value="<?php _e( 'Update Post Dates', 'black-lives-matter' ) ?>" />
+            <input class="button-primary" name="do" type="submit" value="<?php _e( 'Update Settings', 'black-lives-matter' ) ?>" />
         </p>
     </form>
 </div>
@@ -80,5 +101,5 @@ wp_enqueue_style('blacklivesmatter',plugins_url( '/style.css', __FILE__ ));
     </div>
     <span class="coffee-heading">Buy me a coffee!</span>
     <p style="text-align: justify;">Thank you for using <strong>Black Lives Matter Widget</strong>. If you found the plugin useful buy me a coffee! Your donation will motivate and make me happy for all the efforts. You can donate via Fiverr.</p>
-    <p style="text-align: justify; font-size: 12px; font-style: italic;">Developed with <span style="color:#e25555;">♥</span> by <a href="https://atiqsamtia.com" target="_blank" style="font-weight: 500;">Atiq Samtia</a> | <a href="https://github.com/atiqsamtia/black-lives-matter-wordpress-widget" target="_blank" style="font-weight: 500;">GitHub</a> | <a href="https://wordpress.org/support/plugin/black-lives-matter" target="_blank" style="font-weight: 500;">Support</a> | <a href="https://translate.wordpress.org/projects/wp-plugins/black-lives-matter" target="_blank" style="font-weight: 500;">Translate</a> | <a href="https://wordpress.org/support/plugin/black-lives-matter/reviews/?rate=5#new-post" target="_blank" style="font-weight: 500;">Rate it</a> (<span style="color:#ffa000;">★★★★★</span>) on WordPress.org, if you like this plugin.</p>
+    <p style="text-align: justify; font-size: 12px; font-style: italic;">Developed with <span style="color:#e25555;">♥</span> by <a href="https://atiq.dev" target="_blank" style="font-weight: 500;">Atiq Samtia</a> | <a href="https://github.com/atiqsamtia/black-lives-matter-wordpress-widget" target="_blank" style="font-weight: 500;">GitHub</a> | <a href="https://wordpress.org/support/plugin/black-lives-matter" target="_blank" style="font-weight: 500;">Support</a> | <a href="https://translate.wordpress.org/projects/wp-plugins/black-lives-matter" target="_blank" style="font-weight: 500;">Translate</a> | <a href="https://wordpress.org/support/plugin/black-lives-matter/reviews/?rate=5#new-post" target="_blank" style="font-weight: 500;">Rate it</a> (<span style="color:#ffa000;">★★★★★</span>) on WordPress.org, if you like this plugin.</p>
 </div>

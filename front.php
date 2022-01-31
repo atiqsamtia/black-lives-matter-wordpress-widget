@@ -7,7 +7,8 @@
         position: fixed;
         right:0;
         bottom:0;
-        background-color: #F1E829;
+        background-color: <?php echo $blmw_bg_color; ?>;
+        color: <?php echo $blmw_txt_color; ?>;
     }
     #blmw p {
         margin: 7px 15px;

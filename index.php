@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Black Lives Matter Widget
- * Version: 1.0.0
+ * Version: 1.1.0
  * Description: Floating Widget for solidarity with Black Lives Matter Campaign
  * Author: Atiq Samtia
  * Author URI: https://atiqsamtia.com
@@ -37,6 +37,8 @@ function black_lives_matter_front(){
 
     if(get_option('blmw_active', 1) == 1){
         $blmw_message =  get_option('blmw_message', 'Black Lives Matter');
+        $blmw_bg_color =  get_option('blmw_bg_color', '#F1E829');
+        $blmw_txt_color =  get_option('blmw_txt_color', '#000');
         include_once "front.php";
     }
 

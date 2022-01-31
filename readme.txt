@@ -3,7 +3,7 @@ Contributors: atiqsamtia
 Tags: blacklivesmatter, alllivesmatter, widget, solidarity message
 Donate link: https://www.fiverr.com/atiqsamtia/code-or-fix-php-html-css-jquery-mysql-or-wordpress
 Requires at least: 3.0
-Tested up to: 5.4.2
+Tested up to: 5.9
 Requires PHP: 5.4
 Stable tag: trunk
 License: GPL2
@@ -18,6 +18,7 @@ Floating Widget for solidarity with Black Lives Matter Campaign
 * Floating Widget on All Pages of Website with message
 * Enable or Disable the Widget from Admin Panel
 * Customize your Message text
+* Customize background and text colors to match your brand identity
 
 #### Support
 * Community support via the [support forums](https://wordpress.org/support/plugin/black-lives-matter) at WordPress.org.

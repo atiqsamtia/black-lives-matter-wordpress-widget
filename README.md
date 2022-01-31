@@ -8,6 +8,7 @@
 - [x] Floating Widget on All Pages of Website with message
 - [x] Enable or Disable the Widget from Admin Panel
 - [x] Customize your Message text
+- [x] Customize background and text colors to match your brand identity
 
 ## Meta
 
